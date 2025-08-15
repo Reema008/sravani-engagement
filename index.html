@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engagement Celebration - Location</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Engagement Celebration</h1>
+            <p class="subtitle">Join us as we celebrate our engagement</p>
+        </header>
+
+        <main class="main-content">
+            <div class="image-container">
+                <img src="gif-video.gif" alt="Engagement Celebration" class="celebration-gif" id="celebration-gif">
+                <!-- <p><strong>Content Info:</strong></p>
+                <p>File: gif-video.gif</p>
+                <p>Status: <span id="content-status">Loaded</span></p>
+                <p>Type: Animated GIF</p> -->
+            </div>
+            
+            <!-- Background Audio -->
+            <audio id="background-audio" loop autoplay preload="auto">
+                <source src="audio.mp3" type="audio/mpeg">
+                <source src="audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="location-section">
+                <h2 class="location-title">Celebration Location</h2>
+                <p class="location-description">Find us at our beautiful venue</p>
+
+                <div class="map-container">
+                    <div class="map-iframe-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.2079194124462!2d83.0055187!3d17.687635399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3971ffdedfd273%3A0xdfb34dea86db700d!2sBoddeda%20Convention!5e0!3m2!1sen!2sin!4v1755251026582!5m2!1sen!2sin"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="navigation-buttons">
+                    <a href="https://maps.app.goo.gl/VhsDDZr3DoFcx5bN7" target="_blank" class="nav-button primary"> 
+                         <span class="button-icon"></span>
+                         Get Directions
+                    </a>
+
+                </div>
+
+                <div class="location-details">
+                    <p><strong>Address:</strong> 
+                        Boddeda Convention
+                        beside NTR stadium, 
+                        opposite
+                         Rao Gopalarao 
+                        stadium,  
+                        Anakapalli.</span></p>
+                    <!-- <p><strong>Coordinates:</strong> <span id="coordinates">Loading coordinates...</span></p> -->
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>💕 Thank you for being part of our love story! 💕</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem; opacity: 0.8;">Can't wait to celebrate with you! ✨✨</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
